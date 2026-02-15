@@ -1,0 +1,22 @@
+/* System Settings */
+
+:root {
+    --color-gold: #D7B56D;
+    --color-beige: #F4F3E4;
+    --color-black: #1D1D1D;
+    --color-light-black: #1F1F1F;
+    --color-white: #FFFFFF;
+    --color-gray: #4E4E4E;
+    --color-light-gray: #929493;
+    --color-lighter-gray: #E5E5E5;
+    --color-lighter-gray-2: #E7E7E7;
+}
+
+html {
+    font-family: 'HelveticanNeueCyr-Roman';
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
