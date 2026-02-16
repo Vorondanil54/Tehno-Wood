@@ -10,10 +10,15 @@
     --color-light-gray: #929493;
     --color-lighter-gray: #E5E5E5;
     --color-lighter-gray-2: #E7E7E7;
+
+    --font-roman: 'HelveticanNeueCyr-Roman';
+    --font-bold: 'HelveticanNeueCyr-Bold';
+    --font-medium: 'HelveticanNeueCyr-Medium';
+    --font-light: 'HelveticanNeueCyr-Light';
 }
 
 html {
-    font-family: 'HelveticanNeueCyr-Roman';
+    font-family: var(--font-roman);
 }
 
 .container {
