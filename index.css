@@ -335,3 +335,61 @@ html {
 
     background-image: url(/assets/ArrowDown.svg);
 }
+
+/* Advantages Section */
+
+.advantages-section {
+    height: 348px;
+
+    background-color: var(--color-white);
+}
+
+.advantages-section-content {
+    padding-top: 61px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.advantages-section h2 {
+    font-size: 36px;
+    font-family: var(--font-roman);
+}
+
+.advantages {
+    display: flex;
+    gap: 32px;
+}
+
+.advantages div {
+    width: 255px;
+    height: 122px;
+
+    text-align: center;
+}
+
+.advantages hr {
+    width: 100%;
+    height: 6px;
+
+    background-color: var(--color-gold);
+}
+
+.advantages h1 {
+    font-size: 64px;
+    font-family: var(--font-bold);
+
+    margin: 6px 0;
+}
+
+.advantages span {
+    font-size: 40px;
+}
+
+.advantages p {
+    font-size: 16px;
+    font-family: var(--font-roman);
+
+    color: var(--color-black);
+}
