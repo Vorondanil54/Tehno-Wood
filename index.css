@@ -736,3 +736,89 @@ a, p, h1, h2, h3, button {
 
     pointer-events: none;
 }
+
+/* Production Section */
+
+.production-section {
+    height: 588px;
+
+    background-color: var(--color-white);
+}
+
+.production-section-content {
+    padding-top: 59px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.production-section-text {
+    width: 100%;
+    height: 203px;
+
+    display: flex;
+    gap: 138px;
+}
+
+.production-section-text h2 {
+    font-size: 36px;
+    font-family: var(--font-roman);
+
+    width: 337px;
+}
+
+.production-section-text-more {
+    width: 629px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.production-section-text-more hr {
+    width: 350px;
+    height: 4px;
+
+    background-color: var(--color-gold);
+}
+
+.production-section-video {
+    width: 920px;
+    height: 450px;
+
+    margin: 0 auto;
+
+    position: relative;
+}
+
+.video-background {
+    border-radius: 2px;
+}
+
+.video-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.production-section-video p {
+    position: absolute;
+    bottom: 143px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 164px;
+
+    font-size: 12px;
+    font-family: var(--font-roman);
+
+    color: var(--color-white);
+
+    text-align: center;
+
+    line-height: 111%;
+}
