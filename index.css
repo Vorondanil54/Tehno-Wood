@@ -1041,3 +1041,107 @@ form input, form textarea {
 
     pointer-events: none;
 }
+
+/* Scheme of Work Section */
+
+.scheme-of-work-section {
+    height: 421px;
+}
+
+.scheme-of-work-section-content {
+    width: 953px;
+
+    padding-top: 59px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    text-align: center;
+}
+
+.scheme-of-work-section-content h2 {
+    font-size: 36px;
+    font-family: var(--font-roman);
+}
+
+.scheme-of-work-section-scheme {
+    height: 248px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 28px;
+    row-gap: 15px;
+}
+
+.scheme-of-work-section-stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 208px;
+    height: 106px;
+}
+
+.scheme-of-work-section-stage p {
+    text-align: left;
+}
+
+.scheme-of-work-section-stage:nth-of-type(1) p {
+    width: 180px;
+}
+
+.scheme-of-work-section-step {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.scheme-of-work-section-step hr {
+    width: 138px;
+    height: 4px;
+
+    background-color: var(--color-gold);
+
+    border-radius: 1px;
+}
+
+.circle {
+    position: relative;
+
+    width: 50px;
+    height: 50px;
+
+    background-color: var(--color-gold);
+
+    border-radius: 50%;
+}
+
+.circle h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-family: var(--font-medium);
+    font-size: 20px;
+}
+
+.stage-tall {
+    height: 127px;
+}
+
+.stage-wide {
+    width: 245px;
+}
+
+.stage-short {
+    height: 85px;
+}
+
+.stage-thin {
+    width: 181px;
+}
