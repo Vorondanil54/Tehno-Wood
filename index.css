@@ -1145,3 +1145,117 @@ form input, form textarea {
 .stage-thin {
     width: 181px;
 }
+
+/* === Projects (Our Works Section) === */
+
+.projects {
+    height: 682px;
+
+    text-align: center;
+}
+
+.projects__content {
+    height: 542px;
+
+    margin-top: 39px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.projects__content h2 {
+    font-size: 36px;
+    font-family: var(--font-roman);
+}
+
+.projects__cards {
+    width: 100%;
+    height: 390px;
+
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.card {
+    width: 300px;
+    height: 270px;
+
+    position: relative;
+
+    z-index: 2;
+}
+
+.card_center {
+    width: 466px;
+    height: 390px;
+
+    position: relative;
+}
+
+.card_center p {
+    font-size: 20px;
+}
+
+.card__info {
+    width: 100%;
+    height: 70px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    text-align: left;
+
+    color: var(--color-white);
+    background-color: rgb(29 29 29 / 70%); /* var(--color-black) */
+}
+
+.card__text {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    padding-left: 20px;
+
+    font-size: 16px;
+    font-family: var(--font-roman);
+}
+
+.card__text p {
+    line-height: 107.5%;
+}
+
+.card__text a {
+    font-size: 14px;
+    font-family: var(--font-roman);
+
+    color: var(--color-gold);
+}
+
+.projects__scroll {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.projects__border {
+    width: 1526px;
+    height: 266px;
+
+    position: absolute;
+    top: 62px;
+    left: -217px;
+
+    border: 0.5px solid var(--color-black);
+    border-radius: 2px;
+
+    pointer-events: none;
+}
