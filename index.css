@@ -1310,3 +1310,34 @@ form input, form textarea {
 
     transform: translateX(-50%);
 }
+
+/*
+    ==========
+    Geography
+    (Projects Geography Section)
+    ==========
+*/
+
+.geography {
+    height: 770px;
+
+    padding-top: 35px;
+
+    text-align: center;
+
+    background-color: var(--color-beige);
+}
+
+.geography__content {
+    width: 1125px;
+    height: 680px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.geography__content h2 {
+    font-size: 36px;
+    font-family: var(--font-roman);
+}
