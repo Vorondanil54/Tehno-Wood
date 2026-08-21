@@ -1151,13 +1151,13 @@ form input, form textarea {
 .projects {
     height: 682px;
 
+    padding-top: 47px;
+
     text-align: center;
 }
 
 .projects__content {
     height: 542px;
-
-    margin-top: 39px;
 
     position: relative;
 
