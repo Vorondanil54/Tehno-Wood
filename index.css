@@ -1259,3 +1259,54 @@ form input, form textarea {
 
     pointer-events: none;
 }
+
+/*
+    ==========
+    Partnership
+    (Who Did We Work With Section)
+    ==========
+*/
+
+.partnership {
+    height: 535px;
+
+    padding-top: 64px;
+
+    text-align: center;
+
+    background-color: var(--color-beige);
+}
+
+.partnership__content {
+    width: 1006px;
+    height: 437px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.partnership__content h2 {
+    font-size: 36px;
+    font-family: var(--font-roman);
+}
+
+.partnership__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    column-gap: 80px;
+    row-gap: 51px;
+}
+
+.partnership__scroll {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
