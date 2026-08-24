@@ -1374,3 +1374,76 @@ form input, form textarea {
     font-size: 36px;
     font-family: var(--font-roman);
 }
+
+/*
+    ====================================================================================================
+    Thanks
+    (Letters of Thanks Section)
+    ====================================================================================================
+*/
+
+.thanks {
+    height: 634px;
+
+    padding-top: 88px;
+
+    text-align: left;
+}
+
+.thanks__content {
+    height: 452px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.thanks__content h2 {
+    font-size: 36px;
+    font-family: var(--font-roman);
+}
+
+.thanks__letters {
+    width: 974px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+
+.thanks__scroll {
+    width: 100%;
+    height: 226px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.arrows-black {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows-black button {
+    width: 35px;
+    height: 35px;
+}
+
+.arrows-black button:first-child {
+    background-image: url(/assets/ArrowLeftBlack.svg);
+}
+
+.arrows-black button:last-child {
+    background-image: url(/assets/ArrowRightBlack.svg);
+}
+
+.thanks__scroll img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
